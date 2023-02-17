@@ -11,6 +11,8 @@ a {
     
 }
 
+
+
 body {
   font-family: 'Unbounded', cursive !important;
   cursor: url('images/wave-sound.png'), auto;
@@ -58,6 +60,7 @@ img{
   
 }
 
+/*--Layouts-*/
 section{
   padding-top: 80px;
   padding-bottom: 80px;
@@ -82,22 +85,15 @@ section{
   background-attachment: fixed;
 }
 
-
-.bannerholder{
-min-height: 100vh;
-display: flex;
-justify-content: center;
-align-items:center;
-}
-
-
 .promo-title {
-  font-size: 400%;
+  font-size: 500%;
   color:#ffffff;
   left: 0 !important;
   right: 0 !important;
 }
 
+
+/*--Genre Section-*/
 .btn1 {
   background: linear-gradient(rgb(171, 163, 163 ), rgb(15, 15, 17)); 
   color: rgb(255, 255, 255);
@@ -121,6 +117,8 @@ margin-bottom: 30px;
   opacity:1;
 }
 
+/*--Video-*/
+
 .video-btn{
   width: 100px;
   height: 100px;
@@ -133,7 +131,7 @@ margin-bottom: 30px;
 
 }
 
-
+/*-WHY CHOOSE US--*/
 #whyus{
   padding-bottom: 30px;
   padding-top: 30px;
@@ -226,7 +224,7 @@ margin-bottom: 30px;
 }
 
 .row.single-form{
-  box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5)
+  box-shadow: 0 2px 20px -5px rgba(12, 160, 113, 0.5)
 }
 .left{
   background: grey;
@@ -260,33 +258,12 @@ font-size: 35px;
   background: green
 }
 
-/*--Account Login-*/
-.accounts{
-  width: 600px;
-  height: min-content;
-  padding: 15px;
-  background: grey;
-margin-top: 150px;
+
+
+
+/*--BLOG-*/
+#blog img{
+width: 250px !important;
+height: 250px !important;
 }
 
-
-.accounts h1{
-  margin-bottom: 30px;
-  font-size: 40px;
-
-}
-
-.accounts form{
- font-size: 30px 
-
-}
-
-.accounts form .form-group{
-  margin-bottom: 20px;
-}
-
-.accounts form input[type="submit"]{
-
-  margin-top: 15px;
-
-}
